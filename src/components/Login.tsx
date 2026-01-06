@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 import '../css/login.css'
 import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
 
-    const stuForm = useNavigate('');
+    const stuForm = useNavigate();
     //hook
 
 
